@@ -17,7 +17,6 @@ DEBUG = False
 
 
 STATICFILES_DIRS = [join(BASE_DIR, "application", "template", "public")]
-STATIC_ROOT = join(BASE_DIR, "application", "template", "static")
 STATIC_URL = "static/"
 
 LANGUAGE_CODE = "en-us"
