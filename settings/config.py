@@ -13,7 +13,7 @@ ASGI_APPLICATION = "settings.asgi.application"
 
 ALLOWED_HOSTS = [".vercel.app"]
 ROOT_URLCONF = "settings.urls"
-DEBUG = True
+DEBUG = False
 
 
 STATICFILES_DIRS = [join(BASE_DIR, "application", "template", "public")]
